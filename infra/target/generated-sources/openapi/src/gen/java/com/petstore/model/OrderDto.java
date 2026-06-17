@@ -23,7 +23,7 @@ import jakarta.annotation.Generated;
  */
 
 @JsonTypeName("Order")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-06-17T17:33:36.355695588-03:00[America/Sao_Paulo]", comments = "Generator version: 7.12.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-06-17T19:22:13.973605956-03:00[America/Sao_Paulo]", comments = "Generator version: 7.12.0")
 public class OrderDto {
 
   private @Nullable Long id;

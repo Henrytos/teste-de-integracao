@@ -1,0 +1,6 @@
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/entity/assertions/FotoAssertions.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/entity/assertions/ProdutoAssertions.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/entity/factory/FotoFactory.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/entity/factory/ProdutoFactory.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/usecase/CadastroProdutoUseCaseTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/test/java/br/com/alura/marketplace/domain/util/ReflectionUtil.java

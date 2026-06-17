@@ -1,0 +1,7 @@
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/config/RestControllerTestConfig.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/controller/ProdutoControllerTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/dto/FotoDtoFactory.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/dto/ProdutoDtoFactory.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/dto/assertions/FotoDtoAssertions.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/dto/assertions/ProdutoDtoAssertions.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/application/src/test/java/br/com/alura/marketplace/application/v1/mapper/ProdutoDtoMapperTest.java

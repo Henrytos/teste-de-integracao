@@ -1,0 +1,14 @@
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/entity/Foto.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/entity/Produto.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/exception/BusinessException.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/exception/ErroInternoException.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/exception/NotFoundException.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/repository/BucketRepository.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/repository/NotificacaoRepository.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/repository/PetStoreRepository.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/repository/ProdutoRepository.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/repository/QueueRepository.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/usecase/CadastroProdutoUseCase.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/usecase/ConsultaProdutoUseCase.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/util/DateUtil.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/domain/src/main/java/br/com/alura/marketplace/domain/util/ValidationUtil.java

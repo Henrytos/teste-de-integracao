@@ -1,0 +1,7 @@
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/CadastroProdutoTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/ConsultaProdutoTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/setup/LocalStackSetup.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/setup/PostgresSetup.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/setup/RabbitMQSetup.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/setup/RedisSetup.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/iandt/src/test/java/br/com/alura/marketplace/iandt/setup/WiremockSetup.java

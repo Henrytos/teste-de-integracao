@@ -11,8 +11,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-06-17T17:33:36-0300",
-    comments = "version: 1.6.3, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
+    date = "2026-06-17T19:22:17-0300",
+    comments = "version: 1.6.3, compiler: javac, environment: Java 21.0.11 (Ubuntu)"
 )
 public class ProdutoMsgMapperImpl implements ProdutoMsgMapper {
 
@@ -24,20 +24,20 @@ public class ProdutoMsgMapperImpl implements ProdutoMsgMapper {
 
         ProdutoMsg.ProdutoMsgBuilder produtoMsg = ProdutoMsg.builder();
 
-        produtoMsg.atualizadoEm( source.getAtualizadoEm() );
-        produtoMsg.categoria( source.getCategoria() );
-        produtoMsg.criadoEm( source.getCriadoEm() );
-        produtoMsg.descricao( source.getDescricao() );
-        produtoMsg.fotos( fotoListToFotoMsgCollection( source.getFotos() ) );
-        produtoMsg.nome( source.getNome() );
-        produtoMsg.petStorePetId( source.getPetStorePetId() );
         produtoMsg.produtoId( source.getProdutoId() );
+        produtoMsg.nome( source.getNome() );
+        produtoMsg.categoria( source.getCategoria() );
         produtoMsg.status( source.getStatus() );
+        produtoMsg.descricao( source.getDescricao() );
+        produtoMsg.valor( source.getValor() );
+        produtoMsg.petStorePetId( source.getPetStorePetId() );
+        produtoMsg.fotos( fotoListToFotoMsgCollection( source.getFotos() ) );
         List<String> list = source.getTags();
         if ( list != null ) {
             produtoMsg.tags( new ArrayList<String>( list ) );
         }
-        produtoMsg.valor( source.getValor() );
+        produtoMsg.criadoEm( source.getCriadoEm() );
+        produtoMsg.atualizadoEm( source.getAtualizadoEm() );
 
         return produtoMsg.build();
     }
@@ -49,11 +49,11 @@ public class ProdutoMsgMapperImpl implements ProdutoMsgMapper {
 
         FotoMsg.FotoMsgBuilder fotoMsg = FotoMsg.builder();
 
-        fotoMsg.atualizadoEm( foto.getAtualizadoEm() );
-        fotoMsg.criadoEm( foto.getCriadoEm() );
-        fotoMsg.fileName( foto.getFileName() );
         fotoMsg.fotoId( foto.getFotoId() );
+        fotoMsg.fileName( foto.getFileName() );
         fotoMsg.link( foto.getLink() );
+        fotoMsg.criadoEm( foto.getCriadoEm() );
+        fotoMsg.atualizadoEm( foto.getAtualizadoEm() );
 
         return fotoMsg.build();
     }

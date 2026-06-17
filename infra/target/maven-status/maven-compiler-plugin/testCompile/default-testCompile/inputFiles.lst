@@ -1,0 +1,5 @@
+/home/henry/Projetos/Pessoais/teste-de-integracao/infra/src/test/java/br/com/alura/marketplace/infra/config/JpaConfig.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/infra/src/test/java/br/com/alura/marketplace/infra/mapper/PetDtoMapperTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/infra/src/test/java/br/com/alura/marketplace/infra/repository/ProdutoRepositoryExtTest.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/infra/src/test/java/com/petstore/model/assertions/PetDtoAssertions.java
+/home/henry/Projetos/Pessoais/teste-de-integracao/infra/src/test/java/com/petstore/model/factory/PetDtoFactory.java

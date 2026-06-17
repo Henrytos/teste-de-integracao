@@ -11,8 +11,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-06-17T17:33:36-0300",
-    comments = "version: 1.6.3, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
+    date = "2026-06-17T19:22:23-0300",
+    comments = "version: 1.6.3, compiler: javac, environment: Java 21.0.11 (Ubuntu)"
 )
 public class ProdutoDtoMapperImpl implements ProdutoDtoMapper {
 
@@ -46,20 +46,20 @@ public class ProdutoDtoMapperImpl implements ProdutoDtoMapper {
 
         ProdutoDto.Response.ResponseBuilder response = ProdutoDto.Response.builder();
 
-        response.atualizadoEm( source.getAtualizadoEm() );
-        response.categoria( source.getCategoria() );
-        response.criadoEm( source.getCriadoEm() );
-        response.descricao( source.getDescricao() );
-        response.fotos( fotoListToResponseCollection( source.getFotos() ) );
-        response.nome( source.getNome() );
-        response.petStorePetId( source.getPetStorePetId() );
         response.produtoId( source.getProdutoId() );
+        response.nome( source.getNome() );
+        response.categoria( source.getCategoria() );
         response.status( source.getStatus() );
+        response.descricao( source.getDescricao() );
+        response.valor( source.getValor() );
+        response.petStorePetId( source.getPetStorePetId() );
+        response.fotos( fotoListToResponseCollection( source.getFotos() ) );
         List<String> list = source.getTags();
         if ( list != null ) {
             response.tags( new ArrayList<String>( list ) );
         }
-        response.valor( source.getValor() );
+        response.criadoEm( source.getCriadoEm() );
+        response.atualizadoEm( source.getAtualizadoEm() );
 
         return response.build();
     }
@@ -72,13 +72,13 @@ public class ProdutoDtoMapperImpl implements ProdutoDtoMapper {
 
         ProdutoDto.Representacao.RepresentacaoBuilder representacao = ProdutoDto.Representacao.builder();
 
-        representacao.atualizadoEm( source.getAtualizadoEm() );
-        representacao.categoria( source.getCategoria() );
-        representacao.criadoEm( source.getCriadoEm() );
-        representacao.nome( source.getNome() );
         representacao.produtoId( source.getProdutoId() );
+        representacao.nome( source.getNome() );
+        representacao.categoria( source.getCategoria() );
         representacao.status( source.getStatus() );
         representacao.valor( source.getValor() );
+        representacao.criadoEm( source.getCriadoEm() );
+        representacao.atualizadoEm( source.getAtualizadoEm() );
 
         return representacao.build();
     }
@@ -116,11 +116,11 @@ public class ProdutoDtoMapperImpl implements ProdutoDtoMapper {
 
         FotoDto.Response.ResponseBuilder response = FotoDto.Response.builder();
 
-        response.atualizadoEm( foto.getAtualizadoEm() );
-        response.criadoEm( foto.getCriadoEm() );
-        response.fileName( foto.getFileName() );
         response.fotoId( foto.getFotoId() );
+        response.fileName( foto.getFileName() );
         response.link( foto.getLink() );
+        response.criadoEm( foto.getCriadoEm() );
+        response.atualizadoEm( foto.getAtualizadoEm() );
 
         return response.build();
     }
