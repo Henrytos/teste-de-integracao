@@ -1,5 +1,4 @@
 services:
-
   postgres:
     image: postgres
     environment:
@@ -28,7 +27,7 @@ services:
     network_mode: host
 
   api-market-place:
-    image: rodsordi/api-market-place:master
+    image: henryfranz/teste-de-integracao:main
     ports:
       - "8080:8080"
     network_mode: host
