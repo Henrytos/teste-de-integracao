@@ -1,0 +1,12 @@
+README.md
+pom.xml
+src/gen/java/com/petstore/api/PetApi.java
+src/gen/java/com/petstore/api/StoreApi.java
+src/gen/java/com/petstore/api/UserApi.java
+src/gen/java/com/petstore/model/ApiResponseDto.java
+src/gen/java/com/petstore/model/CategoryDto.java
+src/gen/java/com/petstore/model/ErrorDto.java
+src/gen/java/com/petstore/model/OrderDto.java
+src/gen/java/com/petstore/model/PetDto.java
+src/gen/java/com/petstore/model/TagDto.java
+src/gen/java/com/petstore/model/UserDto.java

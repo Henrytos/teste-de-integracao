@@ -1,0 +1,32 @@
+name: build and publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: setup maven java 21
+        uses: actions/setup-java@v3
+        with:
+          distribution: "temurin"
+          java-version: "21"
+          cache: maven
+      - name: rodar os testes
+        run: mvn test
+
+      - name: empacotar o projeto
+        run: mvn package -DskipTests
+
+      - name: cache do pacote
+        uses: actions/cache@v3
+        with:
+          key: package
+          path: .
