@@ -32,6 +32,8 @@ jobs:
           name: api-market-place-artifact
           path: application/target
   push_to_registry:
+    needs:
+      - build
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     permissions:
